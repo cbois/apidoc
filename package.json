@@ -1,5 +1,5 @@
 {
-  "name": "apidoc",
+  "name": "altima-apidoc",
   "version": "0.2.0",
   "description": "RESTful web API Documentation Generator",
   "author": "Peter Rottmann <rottmann@inveris.de>",
@@ -8,13 +8,6 @@
   "bin": "bin/apidoc",
   "main": "./lib/index.js",
   "homepage": "http://apidocjs.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/apidoc/apidoc.git"
-  },
-  "bugs": {
-    "url": "https://github.com/apidoc/apidoc/issues"
-  },
   "scripts": {
     "test": "npm run jshint && mocha test/",
     "jshint": "jshint lib/ test/",
